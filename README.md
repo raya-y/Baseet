@@ -1,3 +1,4 @@
+![Baseet Overview](Bayyin & Baseet Logo.png)
 # Baseet: A Multi-Level Dataset and Hybrid Framework for Arabic Text Simplification
 
 This repository contains the dataset construction pipeline, simplification models, and evaluation code for **Baseet** (بَسيط), a multi-level Arabic text simplification dataset and framework. The work introduces a parallel corpus of 34,294 original Arabic sentences, each paired with three simplified versions, along with a hybrid simplification approach that combines lexical and sequence-to-sequence models.
