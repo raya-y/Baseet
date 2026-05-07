@@ -35,6 +35,8 @@ baseet/
 │   └── hybrid.ipynb                      # seq2seq + lexical refinement
 ├── evaluation/
 │   ├── automatic_evaluation.ipynb        # SARI, BLEU, BERTScore
+|       └── hybrid-models-simplification-evaulation.ipynb
+|       └── lexical-model-simplification-evaluation.ipynb  
 │   ├── predictions.csv                   # model outputs across all levels
 │   └── human_evaluation/
 │       └── survey_results.xlsx           # expert annotator ratings
