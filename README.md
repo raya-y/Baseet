@@ -42,11 +42,9 @@ baseet/
 │   ├── hybrid-AraBART-simplification.ipynb
 │   └── hybrid-arat5v2-simplification.ipynb
 └── evaluation/
-    ├── Baseet_Survey_Anonymized.csv
+    ├── Baseet_Survey_Anonymized.csv                     # anonymized human evaluation survey results
     ├── hybrid-models-simplification-evaluation.ipynb
-    ├── lexical-model-simplification-evaluation.ipynb
-    └── predictions/
-        └── generated model predictions are available through the Google Drive link     └── survey_results.xlsx           # expert annotator ratings
+    |── lexical-model-simplification-evaluation.ipynb
 ```
 ## Dataset
 
