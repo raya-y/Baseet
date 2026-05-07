@@ -1,4 +1,4 @@
-![Baseet Overview](Bayyin__Baseet_Logo.png)
+![Baseet Overview](Bayyin%20%26%20Baseet%20Logo.png)
 
 # Baseet: A Multi-Level Dataset and Hybrid Framework for Arabic Text Simplification
 
