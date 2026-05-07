@@ -23,25 +23,30 @@ The hybrid AraT5v2 model performed best across all three simplification levels.
 ## Repository Structure
 
 ```
+## Repository Structure
+
+```text
 baseet/
 ├── README.md
-├── requirements.txt
-├── data/                                 # source and final dataset files
+├── Bayyin & Baseet Logo.png
 ├── dataset/
-│   ├── generate_simplifications.ipynb    # generates L1, L2, L3 outputs using Aya-8B
-│   └── clean_dataset.ipynb               # applies the cleaning rules
+│   ├── bayyin-llm-simplification-part1.ipynb
+│   ├── bayyin-llm-simplification-part2.ipynb
+│   ├── samer-llm-simplification-part1.ipynb
+│   ├── samer-llm-simplification-part2.ipynb
+│   └── clean_dataset.ipynb
 ├── models/
-│   ├── lexical_simplification.ipynb      # word-level pipeline (ArabicBERT)
-│   ├── train_arabart.ipynb               # AraBART fine-tuning with level tokens
-│   ├── train_arat5v2.ipynb               # AraT5v2 fine-tuning with level tokens
-│   └── hybrid.ipynb                      # seq2seq + lexical refinement
-├── evaluation/
-│   ├── automatic_evaluation.ipynb        # SARI, BLEU, BERTScore
-|       └── hybrid-models-simplification-evaulation.ipynb
-|       └── lexical-model-simplification-evaluation.ipynb  
-│   ├── predictions.csv                   # model outputs across all levels
-│   └── human_evaluation/
-│       └── survey_results.xlsx           # expert annotator ratings
+│   ├── Arat5v2_simplification.ipynb
+│   ├── arabart-simplification.ipynb
+│   ├── lexical-simplification.ipynb
+│   ├── hybrid-AraBART-simplification.ipynb
+│   └── hybrid-arat5v2-simplification.ipynb
+└── evaluation/
+    ├── Baseet_Survey_Anonymized.csv
+    ├── hybrid-models-simplification-evaluation.ipynb
+    ├── lexical-model-simplification-evaluation.ipynb
+    └── predictions/
+        └── generated model predictions are available through the Google Drive link     └── survey_results.xlsx           # expert annotator ratings
 ```
 ## Dataset
 
