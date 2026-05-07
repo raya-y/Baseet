@@ -69,6 +69,13 @@ Automatic evaluation:
  
 The best model (Hybrid AraT5v2) was rated by 32 Arabic experts on Meaning Preservation, Grammaticality, and Simplicity. All criteria averaged above 87%, with L1 reaching 89.33% on simplicity.
 
+
+## Predictions
+
+The generated predictions for each model can be found here:
+
+[Google Drive Folder](https://drive.google.com/drive/folders/1HynWxeKXdbXMi5amzZE5h3kfaXCXxbOH?usp=drive_link)
+
 ## Installation
 
 Tested with Python 3.10.
