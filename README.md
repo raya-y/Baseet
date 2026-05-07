@@ -72,9 +72,7 @@ The best model (Hybrid AraT5v2) was rated by 32 Arabic experts on Meaning Preser
 
 ## Predictions
 
-The generated predictions for each model can be found here:
-
-[Google Drive Folder](https://drive.google.com/drive/folders/1HynWxeKXdbXMi5amzZE5h3kfaXCXxbOH?usp=drive_link)
+The generated predictions for each model can be found here: [models predictions](https://drive.google.com/drive/folders/1HynWxeKXdbXMi5amzZE5h3kfaXCXxbOH?usp=drive_link)
 
 ## Installation
 
